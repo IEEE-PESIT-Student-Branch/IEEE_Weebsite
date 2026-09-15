@@ -6,11 +6,8 @@ function Navbar(){
     return(
         <nav className="navbar">
       <div className="navbar-logo">
-        <a href="/">
-          {/* Replace this with the actual logo later */}
-          <div className="logo-placeholder">
-            LOGO
-          </div>
+        <a href="./">
+          <img src='src/assets/ieeelogosmallsize.png'></img>
         </a>
       </div>
 

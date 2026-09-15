@@ -6,22 +6,32 @@
   align-items: center;
   justify-content: space-between;
 
-  padding: 0 40px;
+  padding: 10px 40px;
   box-sizing: border-box;
 }
 
 .navbar-logo {
-  display: flex;
+  display:flex;
   align-items: center;
 }
 
 .navbar-logo a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
 }
 
+.navbar-logo img{
+  width: 210px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
 .logo-placeholder {
-  width: 45px;
-  height: 45px;
+  width: 0px;
+  height: 55px;
 
   display: flex;
   align-items: center;
