@@ -5,3 +5,24 @@
     color: aliceblue;
     font-family: 'Poppins',sans-serif;
 }
+
+/* Reset body to prevent unnecessary overflow scrollbars */
+html, body {
+  margin: 10;
+  padding: 10;
+  height: 100%;
+}
+
+/* Force the wrapper to take full viewport height */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Force the main area between Navbar & Footer to grow and absorb empty space */
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}

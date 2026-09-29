@@ -8,15 +8,19 @@ import './App.css'
 import Home from './pages/Home.jsx'
 
 function App() {
-  return(
+  return (
     <BrowserRouter>
-      <Navbar />
-      <Routes>
-        <Route path='/' element={<Home />}></Route>
-        <Route path='/about' element={<About/>}></Route>
-        <Route path='/projects' element={<Projects/>}></Route>
-      </Routes>
-      <Footer />
+      <div className="app-container">
+        <Navbar />
+        <main className="main-content">
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/projects' element={<Projects />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
     </BrowserRouter>
   )
 }
