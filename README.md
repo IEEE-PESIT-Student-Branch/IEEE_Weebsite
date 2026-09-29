@@ -1,21 +1,133 @@
-The MIT License (MIT)
+<div align="center">
 
-Copyright (c) 2026 IEEE PESIT Student Branch
+# IEEE PESU Student Branch Website
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+**The official website of the IEEE Student Branch at PES University.**
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+[Live Site](https://ieeesbpes.vercel.app/) · [Report a Bug](https://github.com/IEEE-PESIT-Student-Branch/IEEE_Weebsite/issues) · [Request a Feature](https://github.com/IEEE-PESIT-Student-Branch/IEEE_Weebsite/issues)
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+</div>
+
+---
+
+## 📖 About
+
+This website showcases the **IEEE PESU Student Branch**: who we are, what we do, and what we're up to. It's built and maintained by students, for students.
+
+<!-- Add 1-2 lines on the branch's mission if you like -->
+
+## ✨ Features
+
+- 🏠 Home page introducing the branch
+- 📅 Events and activities
+- ⚙️ Projects
+- 📬 Contact information
+- 📱 Fully responsive design
+More coming soon...
+
+<!-- Edit this list to match what the site actually has -->
+
+## 🛠️ Tech Stack
+
+| Technology       | Purpose                  |
+| ---------------- | ------------------------ |
+| **React**        | UI library               |
+| **React Router** | Client-side routing      |
+| **CSS**          | Styling                  |
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v16 or later recommended)
+- npm (comes with Node.js)
+- Git
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+   git clone https://github.com/IEEE-PESIT-Student-Branch/IEEE_Weebsite.git
+   cd IEEE_Weebsite
+```
+
+2. Install dependencies:
+
+```bash
+   npm install
+```
+
+3. Start the development server:
+
+```bash
+   npm start
+```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+The optimized build will be generated in the `build/` folder.
+
+## 📁 Project Structure
+
+```
+IEEE_Weebsite/
+├── public/          # Static assets and index.html
+├── src/
+│   ├── components/  # Reusable components
+│   ├── pages/       # Page-level components (routes)
+│   ├── assets/      # Images, fonts, etc.
+│   ├── App.js       # Routes and app layout
+│   └── index.js     # Entry point
+├── package.json
+└── README.md
+```
+
+<!-- Adjust to match your actual folder layout -->
+
+## 🤝 Contributing
+
+Contributions are welcome! Please read our [Contributing Guidelines](./CONTRIBUTING.md) before opening an issue or pull request.
+
+Quick summary:
+
+1. Fork the repo
+2. Create a new branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -m "feat: add your feature"`)
+4. Push to your fork (`git push origin feature/your-feature`)
+5. Open a Pull Request
+
+<!-- ## 👥 Contributors
+
+Thanks to everyone who has helped build this website!
+
+<a href="https://github.com/IEEE-PESIT-Student-Branch/IEEE_Weebsite/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=IEEE-PESIT-Student-Branch/IEEE_Weebsite" />
+</a>
+uncomment this once there are contributors -->
+
+## 📬 Contact
+
+- 🌐 Website: https://ieeesbpes.vercel.app/
+- 📸 Instagram: https://www.instagram.com/ieee_pesuecc_sb/
+- 💼 LinkedIn: https://www.linkedin.com/company/ieee-pesuecc-sb/
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<!-- Remove or change this section if the repo has no license or uses a different one -->
+
+---
+
+<div align="center">
+
+Made with 💙 by the IEEE PESU Student Branch
+
+</div>

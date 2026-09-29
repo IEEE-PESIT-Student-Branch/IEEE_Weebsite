@@ -109,7 +109,7 @@ function Home() {
 
       {/* Upcoming event */}
       <section className="home-section">
-        <p className="section-label">02 / UP NEXT</p>
+        <p className="section-label">02 / EVENTS</p>
 
         <div className="event">
           <div>

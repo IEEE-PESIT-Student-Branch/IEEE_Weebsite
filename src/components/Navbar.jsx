@@ -1,13 +1,14 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom';
 import './Navbar.css'
+import ieeeMainLogo from '../assets/ieeelogosmallsize.png'
 
 function Navbar(){
     return(
         <nav className="navbar">
       <div className="navbar-logo">
         <a href="./">
-          <img src='src/assets/ieeelogosmallsize.png'></img>
+          <img src={ieeeMainLogo}></img>
         </a>
       </div>
 

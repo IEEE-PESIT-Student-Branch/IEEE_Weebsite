@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './Footer.css'
+import ieeeFooterLogo from '../assets/logo.png'
 
 function Footer(){
     return(
@@ -7,7 +8,7 @@ function Footer(){
             <footer className='footer'>
                 <div className='footer-logos'>
                     <div className='logo'>
-                        <a href='./'><img src="src/assets/logo.png" alt="Logo_IEEE" /></a>
+                        <a href='./'><img src={ieeeFooterLogo} alt="Logo_IEEE" /></a>
                     </div>
                 </div>
 
