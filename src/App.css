@@ -8,7 +8,7 @@
 
 /* Reset body to prevent unnecessary overflow scrollbars */
 html, body {
-  margin: 10;
+  margin: 0;
   padding: 10;
   height: 100%;
 }

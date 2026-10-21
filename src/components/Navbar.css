@@ -7,7 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 40px;
+  padding: 0px 30px 0 0;
 }
 
 .navbar-logo {
@@ -24,7 +24,7 @@
 
 .navbar-logo img {
   display: block;
-  width: 210px;
+  width: 180px;
   max-width: 100%;
   height: auto;
   object-fit: contain;
@@ -38,7 +38,7 @@
 
 .navbar-links a {
   color: inherit;
-  font-size: 16px;
+  font-size: 21px;
   text-decoration: none;
 }
 
@@ -68,7 +68,7 @@
 @media (max-width: 600px) {
   .navbar {
     min-height: 75px;
-    padding: 10px 18px;
+    padding: 5px 10px 0 0px;
   }
 
   .navbar-logo img {
